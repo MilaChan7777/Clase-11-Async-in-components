@@ -1,0 +1,14 @@
+h1 {
+	color: pink;
+}
+
+.card {
+	background-color: aliceblue;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+
+	@media (max-width: 400px) {
+		flex-direction: column;
+	}
+}
