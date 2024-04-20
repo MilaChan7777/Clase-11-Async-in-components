@@ -12,6 +12,7 @@ class AppContainer extends HTMLElement {
 			const data = await getPokemons(i);
 			console.log(data);
 			this.render(data);
+			//hola mundo jeje
 		}
 	}
 
